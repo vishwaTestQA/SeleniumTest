@@ -29,7 +29,7 @@ public class LoginPage {
 	@FindBy(how=How.XPATH,using="//button[@id='signUpPopupCloseButton']")
 			})
 	@CacheLookup
-	static List<WebElement> popups;
+	public static List<WebElement> popups;
 	
 	@FindBy(how=How.XPATH,using="//a[@href='/login']")
 	@CacheLookup

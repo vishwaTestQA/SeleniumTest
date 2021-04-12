@@ -1,22 +1,33 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "191fc506-b767-4cfa-957e-d5c8e82690c4",
+    "id": "224a05c3-c686-48f7-8b80-ae9a5787773a",
+    "feature": "Search Products",
+    "scenario": "validate search",
+    "start": 1617547990724,
+    "end": 1617548041006,
+    "group": 1,
+    "content": "",
+    "className": "passed",
+    "tags": "@log,"
+  },
+  {
+    "id": "d1857d1f-d9c2-4d8d-8092-b27e7ec43c8a",
     "feature": "Login feature",
     "scenario": "login with excel",
-    "start": 1617464359928,
-    "end": 1617464401422,
+    "start": 1617547915261,
+    "end": 1617547958009,
     "group": 1,
     "content": "",
     "className": "failed",
     "tags": "@log,"
   },
   {
-    "id": "75e83037-627c-400c-8343-022f66d888b6",
+    "id": "a660e00b-32c0-4e56-9bbe-bf6c27a0c184",
     "feature": "Login feature",
     "scenario": "login with excel",
-    "start": 1617464401435,
-    "end": 1617464436258,
+    "start": 1617547958100,
+    "end": 1617547990720,
     "group": 1,
     "content": "",
     "className": "failed",

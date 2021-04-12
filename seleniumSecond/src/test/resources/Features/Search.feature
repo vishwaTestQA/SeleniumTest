@@ -1,6 +1,6 @@
 Feature: Search Products
 
-
+@log
  Scenario: validate search
     Given when enter product as "watch" in search
     When change the selection type as "Electronics"
